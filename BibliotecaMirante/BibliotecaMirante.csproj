@@ -74,6 +74,7 @@
     <Compile Include="Classes\Cls_Caixa.cs" />
     <Compile Include="Classes\Cls_Portaria.cs" />
     <Compile Include="Databases\FicharioCafe.cs" />
+    <Compile Include="Databases\FicharioPortaria.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

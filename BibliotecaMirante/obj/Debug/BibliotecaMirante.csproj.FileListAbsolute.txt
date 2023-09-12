@@ -24,3 +24,29 @@ C:\Users\gui_z\OneDrive\Área de Trabalho\Projeto Mirante\BibliotecaMirante\bin\
 C:\Users\gui_z\OneDrive\Área de Trabalho\Projeto Mirante\BibliotecaMirante\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\gui_z\OneDrive\Área de Trabalho\Projeto Mirante\BibliotecaMirante\bin\Debug\System.ValueTuple.xml
 C:\Users\gui_z\OneDrive\Área de Trabalho\Projeto Mirante\BibliotecaMirante\obj\Debug\BibliotecaMirante.csproj.CopyComplete
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\BibliotecaMirante.dll.config
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\BibliotecaMirante.dll
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\BibliotecaMirante.pdb
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\System.Buffers.dll
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\System.Memory.dll
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\System.Text.Json.dll
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\System.ValueTuple.dll
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\System.Buffers.xml
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\System.Memory.xml
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\System.Text.Json.xml
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\bin\Debug\System.ValueTuple.xml
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\obj\Debug\BibliotecaMirante.csproj.AssemblyReference.cache
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\obj\Debug\BibliotecaMirante.csproj.CoreCompileInputs.cache
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\obj\Debug\BibliotecaMirante.csproj.CopyComplete
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\obj\Debug\BibliotecaMirante.dll
+C:\Users\gui_z\OneDrive\Área de Trabalho\SistemaMirante\BibliotecaMirante\obj\Debug\BibliotecaMirante.pdb

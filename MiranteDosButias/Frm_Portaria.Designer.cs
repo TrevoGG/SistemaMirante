@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Portaria));
             this.Lbl_total = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Tbx_PortariaTotal = new System.Windows.Forms.TextBox();
             this.Lbl_IdPortaria = new System.Windows.Forms.Label();
             this.Lbl_DataPortaria = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.Tbx_PortariaId = new System.Windows.Forms.TextBox();
             this.Mtbx_DataPortaria = new System.Windows.Forms.MaskedTextBox();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.novoToolStripButton = new System.Windows.Forms.ToolStripButton();
@@ -54,12 +54,12 @@
             this.Lbl_total.TabIndex = 0;
             this.Lbl_total.Text = "Total";
             // 
-            // textBox1
+            // Tbx_PortariaTotal
             // 
-            this.textBox1.Location = new System.Drawing.Point(135, 81);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
+            this.Tbx_PortariaTotal.Location = new System.Drawing.Point(135, 81);
+            this.Tbx_PortariaTotal.Name = "Tbx_PortariaTotal";
+            this.Tbx_PortariaTotal.Size = new System.Drawing.Size(100, 20);
+            this.Tbx_PortariaTotal.TabIndex = 1;
             // 
             // Lbl_IdPortaria
             // 
@@ -81,12 +81,12 @@
             this.Lbl_DataPortaria.TabIndex = 3;
             this.Lbl_DataPortaria.Text = "Data";
             // 
-            // textBox3
+            // Tbx_PortariaId
             // 
-            this.textBox3.Location = new System.Drawing.Point(135, 135);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 5;
+            this.Tbx_PortariaId.Location = new System.Drawing.Point(135, 135);
+            this.Tbx_PortariaId.Name = "Tbx_PortariaId";
+            this.Tbx_PortariaId.Size = new System.Drawing.Size(100, 20);
+            this.Tbx_PortariaId.TabIndex = 5;
             // 
             // Mtbx_DataPortaria
             // 
@@ -119,6 +119,7 @@
             this.novoToolStripButton.Name = "novoToolStripButton";
             this.novoToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.novoToolStripButton.Text = "&Novo";
+            this.novoToolStripButton.Click += new System.EventHandler(this.novoToolStripButton_Click);
             // 
             // abrirToolStripButton
             // 
@@ -128,6 +129,7 @@
             this.abrirToolStripButton.Name = "abrirToolStripButton";
             this.abrirToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.abrirToolStripButton.Text = "&Abrir";
+            this.abrirToolStripButton.Click += new System.EventHandler(this.abrirToolStripButton_Click);
             // 
             // salvarToolStripButton
             // 
@@ -159,10 +161,10 @@
             this.ClientSize = new System.Drawing.Size(800, 203);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.Mtbx_DataPortaria);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.Tbx_PortariaId);
             this.Controls.Add(this.Lbl_DataPortaria);
             this.Controls.Add(this.Lbl_IdPortaria);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Tbx_PortariaTotal);
             this.Controls.Add(this.Lbl_total);
             this.Name = "Frm_Portaria";
             this.Text = "Portaria";
@@ -176,10 +178,10 @@
         #endregion
 
         private System.Windows.Forms.Label Lbl_total;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox Tbx_PortariaTotal;
         private System.Windows.Forms.Label Lbl_IdPortaria;
         private System.Windows.Forms.Label Lbl_DataPortaria;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox Tbx_PortariaId;
         private System.Windows.Forms.MaskedTextBox Mtbx_DataPortaria;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton novoToolStripButton;

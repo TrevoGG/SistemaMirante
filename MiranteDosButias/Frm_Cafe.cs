@@ -55,7 +55,15 @@ namespace MiranteDosButias
 
                 string cafjson = Cafe.SerealizedClassUnity(C);
 
-                FicharioCafe F = new FicharioCafe("C:\\Users\\gui_z\\OneDrive\\Área de Trabalho\\Projeto Mirante\\fichariocafe");
+                string caminhoDaAreaDeTrabalho = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "FicharioCafe");
+
+                // Verifica se a pasta já existe, se não, a cria
+                if (!Directory.Exists(caminhoDaAreaDeTrabalho))
+                {
+                    Directory.CreateDirectory(caminhoDaAreaDeTrabalho);
+                }
+
+                FicharioCafe F = new FicharioCafe(caminhoDaAreaDeTrabalho);
 
                 if (F.status)
                 {

@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -9,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace BibliotecaMirante.Databases
 {
-    public class FicharioCafe
+    public class FicharioPortaria
     {
         public string diretorio;
         public string mensagem;
         public bool status;
-        public FicharioCafe(string Diretorio)
+        public FicharioPortaria(string Diretorio)
         {
             status = true;
             try
@@ -38,22 +37,22 @@ namespace BibliotecaMirante.Databases
             status = true;
             try
             {
-                
+
                 if (File.Exists(diretorio + "\\" + Id + ".json"))
                 {
                     status = false;
                     mensagem = "já existe esse id " + Id;
-                    
-                    
+
+
                 }
                 else
                 {
-                    
-                        File.WriteAllText(diretorio + "\\" + Id + ".json", jsonunit);
-                        status = true;
-                        mensagem = "sucesso!";
-                    
-                    
+
+                    File.WriteAllText(diretorio + "\\" + Id + ".json", jsonunit);
+                    status = true;
+                    mensagem = "sucesso!";
+
+
                 }
 
             }
@@ -63,7 +62,7 @@ namespace BibliotecaMirante.Databases
                 mensagem = "errinho" + ex.Message;
             }
         }
-        
+
         public string Buscar(string Id)
         {
             status = true;
@@ -71,7 +70,7 @@ namespace BibliotecaMirante.Databases
             {
                 if (!(File.Exists(diretorio + "\\" + Id + ".json")))
                 {
-                    
+
                     status = false;
                     mensagem = "não existe" + Id;
                 }
@@ -86,9 +85,9 @@ namespace BibliotecaMirante.Databases
             catch (Exception ex)
             {
                 status = false;
-                mensagem = "erro ao  buscar"+ ex.Message;
+                mensagem = "erro ao  buscar" + ex.Message;
             }
-            return  "";
+            return "";
         }
 
         public void ApagaCafé(string Id)
@@ -115,7 +114,7 @@ namespace BibliotecaMirante.Databases
                 status = false;
                 mensagem = "erro ao  buscar" + ex.Message;
             }
-            
+
         }
         public void Alterar(string Id, string jsonunit)
         {
@@ -141,6 +140,11 @@ namespace BibliotecaMirante.Databases
                 status = false;
                 mensagem = "errinho" + ex.Message;
             }
+        }
+
+        public static implicit operator FicharioPortaria(FicharioCafe v)
+        {
+            throw new NotImplementedException();
         }
     }
 
